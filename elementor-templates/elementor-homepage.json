@@ -1,0 +1,237 @@
+{
+  "version": "0.4",
+  "title": "APR Group Homepage Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "apr_el_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "gradient",
+        "background_color": "#F5F8FC",
+        "background_color_b": "#EBF2FA",
+        "padding": {
+          "unit": "px",
+          "top": 80,
+          "right": 0,
+          "bottom": 80,
+          "left": 0
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_el_hero_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55
+          },
+          "elements": [
+            {
+              "id": "apr_el_tag",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "RESIDENTIAL PLOTTING SOLUTIONS",
+                "title_color": "#2467C5",
+                "header_size": "h6"
+              }
+            },
+            {
+              "id": "apr_el_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Find the Right Plot for Your Future",
+                "title_color": "#173B65",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "apr_el_desc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Explore residential plot locations, compare prices and find land according to your needs and budget with APR GROUP OF COMPANY in Bhadohi, Uttar Pradesh.</p>"
+              }
+            },
+            {
+              "id": "apr_el_btn_explore",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Explore Our Projects →",
+                "link": {
+                  "url": "#projects-section"
+                },
+                "background_color": "#2467C5"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_el_hero_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45
+          },
+          "elements": [
+            {
+              "id": "apr_el_carousel",
+              "elType": "widget",
+              "widgetType": "image-carousel",
+              "settings": {
+                "carousel": [
+                  { "id": 101, "url": "assets/images/projects/rajpura-1.jpg" },
+                  { "id": 102, "url": "assets/images/projects/ugapur-1.jpg" },
+                  { "id": 103, "url": "assets/images/projects/kanshraipur-1.jpg" },
+                  { "id": 104, "url": "assets/images/projects/chauri-1.jpg" },
+                  { "id": 105, "url": "assets/images/projects/gosai-1.jpg" },
+                  { "id": 106, "url": "assets/images/projects/parjapatpur-1.jpg" }
+                ],
+                "slides_to_show": "1",
+                "autoplay": "yes",
+                "autoplay_speed": 4200,
+                "navigation": "both",
+                "pause_on_hover": "yes",
+                "infinite": "yes",
+                "effect": "fade"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_el_calc_section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#F5F8FC",
+        "padding": {
+          "unit": "px",
+          "top": 70,
+          "right": 0,
+          "bottom": 70,
+          "left": 0
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_el_calc_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "apr_el_calc_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Smart Property Search & Price Calculator",
+                "title_color": "#173B65",
+                "align": "center"
+              }
+            },
+            {
+              "id": "apr_el_calc_shortcode",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[apr_plot_calculator]"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_el_projects_section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": 70,
+          "right": 0,
+          "bottom": 70,
+          "left": 0
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_el_proj_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "apr_el_proj_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Featured Projects in Bhadohi",
+                "title_color": "#173B65",
+                "align": "center"
+              }
+            },
+            {
+              "id": "apr_el_proj_shortcode",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[apr_project_grid count=\"6\" columns=\"3\"]"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apr_el_reviews_section",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": 70,
+          "right": 0,
+          "bottom": 70,
+          "left": 0
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_el_reviews_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "apr_el_reviews_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Customer Reviews & Testimonials",
+                "title_color": "#173B65",
+                "align": "center"
+              }
+            },
+            {
+              "id": "apr_el_reviews_html",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<p style='text-align:center;color:#556987;max-width:640px;margin:0 auto 30px;'>Genuine feedback from property buyers working with APR GROUP OF COMPANY in Bhadohi.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

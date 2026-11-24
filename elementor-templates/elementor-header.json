@@ -1,0 +1,113 @@
+{
+  "version": "0.4",
+  "title": "APR Group Header Template",
+  "type": "header",
+  "content": [
+    {
+      "id": "apr_hdr_sec",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 4,
+          "blur": 18,
+          "spread": 0,
+          "color": "rgba(23, 59, 101, 0.08)"
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_hdr_col1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "apr_hdr_logo",
+              "elType": "widget",
+              "widgetType": "theme-site-logo",
+              "settings": {
+                "align": "left"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_hdr_col2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "apr_hdr_menu",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "layout": "horizontal",
+                "align_items": "center",
+                "color_menu_item": "#173B65",
+                "color_menu_item_hover": "#2467C5",
+                "color_menu_item_active": "#2467C5",
+                "typography_typography": "custom",
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_hdr_col3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "apr_hdr_btn_wa",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "WhatsApp",
+                "link": {
+                  "url": "https://wa.me/916392199296",
+                  "is_external": true
+                },
+                "background_color": "#159568",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 6,
+                  "right": 6,
+                  "bottom": 6,
+                  "left": 6
+                }
+              }
+            },
+            {
+              "id": "apr_hdr_btn_call",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Call Now",
+                "link": {
+                  "url": "tel:+916392199296"
+                },
+                "background_color": "#2467C5",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 6,
+                  "right": 6,
+                  "bottom": 6,
+                  "left": 6
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

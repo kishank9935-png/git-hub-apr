@@ -1,0 +1,117 @@
+{
+  "version": "0.4",
+  "title": "APR Group Footer Template",
+  "type": "footer",
+  "content": [
+    {
+      "id": "apr_ftr_sec",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "background_background": "classic",
+        "background_color": "#173B65",
+        "padding": {
+          "unit": "px",
+          "top": 65,
+          "right": 0,
+          "bottom": 25,
+          "left": 0
+        }
+      },
+      "elements": [
+        {
+          "id": "apr_ftr_col1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 35
+          },
+          "elements": [
+            {
+              "id": "apr_ftr_h3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "APR GROUP OF COMPANY",
+                "title_color": "#FFFFFF",
+                "header_size": "h3"
+              }
+            },
+            {
+              "id": "apr_ftr_p",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#D5E2F0;\">Find the Right Plot for Your Future. Residential plotting across Bhadohi, UP with transparent pricing.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_ftr_col2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 20
+          },
+          "elements": [
+            {
+              "id": "apr_ftr_links_h4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quick Navigation",
+                "title_color": "#FFFFFF",
+                "header_size": "h4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_ftr_col3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 20
+          },
+          "elements": [
+            {
+              "id": "apr_ftr_proj_h4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Projects",
+                "title_color": "#FFFFFF",
+                "header_size": "h4"
+              }
+            }
+          ]
+        },
+        {
+          "id": "apr_ftr_col4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 25
+          },
+          "elements": [
+            {
+              "id": "apr_ftr_contact_h4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact Office",
+                "title_color": "#FFFFFF",
+                "header_size": "h4"
+              }
+            },
+            {
+              "id": "apr_ftr_contact_info",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:#D5E2F0;\">📍 Siddhi Vinayak Colony, Rajpura Phase 1, Bhadohi 221401<br>📞 +91 63921 99296</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

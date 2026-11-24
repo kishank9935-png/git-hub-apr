@@ -1,0 +1,66 @@
+[
+  {
+    "key": "group_apr_project_meta",
+    "title": "Project Details & Rate Settings",
+    "fields": [
+      {
+        "key": "field_apr_rate_sqft",
+        "label": "Rate Per Square Foot (₹)",
+        "name": "rate_per_sqft",
+        "type": "number",
+        "instructions": "Enter listed rate in INR per Sq. Ft. (e.g. 2500, 1300, 2300, 1000)",
+        "required": 1,
+        "default_value": 1500,
+        "placeholder": "2500",
+        "min": 100,
+        "max": 100000,
+        "step": 1
+      },
+      {
+        "key": "field_apr_location_address",
+        "label": "Exact Project Location",
+        "name": "location_address",
+        "type": "text",
+        "instructions": "e.g. Siddhi Vinayak Colony, Rajpura Phase 1, Bhadohi",
+        "required": 1,
+        "default_value": "Bhadohi, Uttar Pradesh"
+      },
+      {
+        "key": "field_apr_badge_text",
+        "label": "Project Badge / Highlight Text",
+        "name": "badge_text",
+        "type": "text",
+        "instructions": "e.g. Prime Head Office Location, Best Budget Value, High Demand",
+        "default_value": "Verified Location"
+      },
+      {
+        "key": "field_apr_short_desc",
+        "label": "Short Card Summary",
+        "name": "short_description",
+        "type": "textarea",
+        "rows": 3,
+        "instructions": "1-2 sentence description displayed on project archive cards"
+      },
+      {
+        "key": "field_apr_whatsapp_phone",
+        "label": "WhatsApp Number for Enquiries",
+        "name": "whatsapp_phone",
+        "type": "text",
+        "default_value": "916392199296"
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "apr_project"
+        }
+      ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top"
+  }
+]
